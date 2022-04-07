@@ -1,16 +1,12 @@
 {
   "compilerOptions": {
-    "outDir": "dist",
+    "outDir": "docs",
     "target": "es5",
-    "lib": [
-      "dom",
-      "dom.iterable",
-      "esnext"
-    ],
+    "lib": ["dom", "dom.iterable", "esnext"],
     "declaration": true,
     "baseUrl": "./",
     "paths": {
-      "*": ["src/*"],
+      "*": ["src/*"]
     },
     "allowJs": true,
     "skipLibCheck": true,
@@ -26,7 +22,5 @@
     "noEmit": false,
     "jsx": "react-jsx"
   },
-  "include": [
-    "src"
-  ]
+  "include": ["src"]
 }
