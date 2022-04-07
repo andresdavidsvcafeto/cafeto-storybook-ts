@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "private": false,
   "license": "MIT",
-  "typings": "docs/index.d.ts",
-  "main": "docs/index.js",
+  "typings": "dist/index.d.ts",
+  "main": "dist/index.js",
   "homepage": "https://cafeto.co",
   "repository": {
     "url": "https://bitbucket.org/cafetodev/central-storybook-react/src/master/",
@@ -20,7 +20,7 @@
     ]
   },
   "files": [
-    "docs",
+    "dist",
     "src"
   ],
   "dependencies": {
@@ -41,8 +41,8 @@
     "build": "yarn clean && tsc && yarn copy-files",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "clean": "rimraf docs/",
-    "copy-files": "copyfiles -u 1 src/**/*.css docs/",
+    "clean": "rimraf dist/",
+    "copy-files": "copyfiles -u 1 src/**/*.css dist/",
     "chromatic": "npx chromatic --project-token=ca4568a8aa33"
   },
   "eslintConfig": {
