@@ -7,7 +7,7 @@
   "main": "dist/index.js",
   "homepage": "https://cafeto.co",
   "repository": {
-    "url": "https://bitbucket.org/cafetodev/central-storybook-react/src/master/",
+    "url": "https://github.com/andresdavidsvcafeto/cafeto-storybook-ts.git",
     "type": "git"
   },
   "peerDependencies": {
