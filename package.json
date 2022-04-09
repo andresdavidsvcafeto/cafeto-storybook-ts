@@ -15,8 +15,7 @@
   },
   "release": {
     "branches": [
-      "master",
-      "develop"
+      "master"
     ]
   },
   "files": [
