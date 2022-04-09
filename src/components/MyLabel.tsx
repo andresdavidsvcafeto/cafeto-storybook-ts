@@ -33,7 +33,7 @@ export const MyLabel = ({
   allCaps = false,
   color = 'primary',
   fontColor,
-  backgroundColor='transparent',
+  backgroundColor = 'transparent',
 }: MyLabelProps) => {
   return (
     <span
@@ -43,3 +43,5 @@ export const MyLabel = ({
     </span>
   );
 };
+
+export default MyLabel;
