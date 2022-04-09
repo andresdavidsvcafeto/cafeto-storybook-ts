@@ -11,12 +11,12 @@
     "type": "git"
   },
   "peerDependencies": {
-    "react": ">=17",
-    "typescript": ">=4.6.0"
+    "react": ">=17"
   },
   "release": {
     "branches": [
-      "master"
+      "master",
+      "develop"
     ]
   },
   "files": [
