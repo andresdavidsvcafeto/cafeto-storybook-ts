@@ -1,6 +1,7 @@
 {
   "name": "cafeto-storybook-ts",
   "version": "0.1.0",
+  "author": "Andres David Solarte Vidal",
   "private": false,
   "license": "MIT",
   "typings": "dist/index.d.ts",
